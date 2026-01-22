@@ -1,0 +1,4 @@
+client-bff/node_modules
+client-bff/.env
+resource-api/node_modules
+resource-api/.env

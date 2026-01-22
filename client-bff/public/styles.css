@@ -1,0 +1,10 @@
+:root {
+    --maxWidth: 1280px;
+}
+
+body {
+    max-width: var(--maxWidth);
+    pre {
+        overflow: auto;
+    }
+}

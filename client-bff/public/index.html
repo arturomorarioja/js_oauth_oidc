@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OAuth 2.0 / OIDC</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <h1>OAuth 2.0 / OIDC</h1>
+    </header>
+    <main>
+        <p>
+            <a href="/login">1) Login via OIDC</a>
+        </p>
+        
+        <hr>
+        
+        <h2>Tokens (for inspection)</h2>
+        <pre id="outTokens">Login first.</pre>
+        
+        <p>
+            <button id="btnCallApi" type="button" disabled>2) Call Resource API</button>
+        </p>
+        
+        <h2>Resource API response</h2>
+        <pre id="outApi">No API call yet.</pre>        
+    </main>
+</body>
+</html>
