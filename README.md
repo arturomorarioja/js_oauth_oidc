@@ -41,7 +41,7 @@ It then runs a resource API and a server acting as the API's client (BFF: Backen
         - Password: `secret`
         - Set **Temporary** off
 2. Prepare the demo project 
-    - Run `npm i` in `client-bff` and `resource-api`
+    - Install dependencies: run `npm i` in `client-bff` and `resource-api`
     - Create config files by copying `.env.example` to `.env` in `client-bff` and `resource-api`
     - In `client-bff/.env`, update `OIDC_CLIENT_SECRET`: Substitute `CHANGE_ME` by the client secret from Keycloak
 3. Start both servers
@@ -58,7 +58,6 @@ It then runs a resource API and a server acting as the API's client (BFF: Backen
     - Click on **Call Resource API**
         - The BFF sends `Authorization: Bearer <access_token>` to `http://localhost:9000/secret`
         - The API fetches Keycloak's public keys, checks who the token was issued for, and returns protected data
-
 
 ## Tools
 Express / Node.js / JavaScript / Water.css / CSS3 / HTML5
